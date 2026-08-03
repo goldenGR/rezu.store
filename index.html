@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        html, body {
+            height: 100%;
+            min-height: 100%;
+            margin: 0;
+            padding: 0;
+        }   
+
+        body {
+            font-size: 16px;
+            color: white;
+            background-image: url('./media/bliss2.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            min-height: 100vh;
+        }
+
+        /* Allow overflow on mobile for scroll */
+        @media (min-width: 769px) {
+            body {
+                overflow: hidden;
+            }
+
+            #mainMenu {
+                overflow: auto;
+                top: -100px;
+            }
+        }
+
+        span {
+            font-size: 16px;
+        }
+
+        div {
+            font-size: 16px;
+        }
+
+        .title-bar-text {
+            font-size: 11px;
+        }
+        a {
+            color: #41a3d8;
+        
+        }
+        a:visited {
+            color: #ced638;
+        
+        }
+        a:hover, a:active, a:focus {
+            color:#ff0000;
+        }
+
+        li p {
+            display: inline;
+            margin: 0;
+        }
+    </style>    
+
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div id="mainMenu" class="window" style="width: 70%; min-height: 75%; height:fit-content; align-items: center; justify-content: center; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+        <div class="title-bar">
+            <div class="title-bar-text" style="text-align: center; font-size: 120%;">Rezu's Boosting Service</div>
+            <div class="title-bar-controls"> 
+                <button aria-label="Close">
+                    ✗
+                </button> 
+            </div>
+        </div>
+            <div style="text-align: left; margin: 5px;">
+                <button onclick="window.location.href='index.html';">Home</button>
+            </div>
+            <hr>
+            <div style="display: flex; flex-direction: row; align-items: flex-start; height: 100%;">
+                <div id="sideDiv" class="window" style="width: 20%; min-height: 90%; margin-left: 10px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; padding: 10px; align-items: center; justify-content: center; position: relative;">
+
+                    <img src="./media/rezu.jpg" alt="Rezu's Boosting Service" style="width: 50%; height: auto; margin-left: 25%; margin-right: 25%; margin-top: 5px; margin-bottom: 5px;">
+                    
+                    <div id="links" style="width: 80%; height: 60%; margin-left: 2%; margin-right: 25%; margin-top: 5px; margin-bottom: 5px; align-items: center; justify-content: center; position: relative;">
+                        <h4>Links</h4>
+                        <ul style="font-size: 18px;">
+                            <li><p>[ <a href="https://oguser.com/member.php?action=profile&uid=1018177" target="_blank">OGUser</a> ]</p></li>
+                            <li><p>[ <a href="https://t.me/rezurealms " target="_blank">Telegram</a> ]</p></li>
+                            <li><p> [ <a href="https://discord.gg/JdTJgPdFq6 " target="_blank">Discord Server</a> ]</p></li>
+                            <li><p> [ <a href="https://discord.gg/JdTJgPdFq6 " target="_blank">Discord Profile</a> ]</p></li>
+                        </ul>
+                        <h4>Payment Methods</h4>
+                        <p>Crypto:</p>
+                        <ul style="font-size: 18px;" id="crypto">
+                            <li>btc :btc:</li>
+                            <li>eth :eth:</li>
+                            <li>usdc :usdc:</li>
+                            <li>xrp :xrp:</li>
+                            <li>ltc :ltc:</li>
+                        </ul>
+                        <br>
+                    </div>
+                </div>
+
+                <div class="window" style="width: 70%; height: 80%; margin-left: 10px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; padding: 10px; align-items: center; justify-content: center; position: relative; font-size: 18px;">
+                    <div style="margin-left:10px; font-size: 16px;">
+                        <div style="display: flex; flex-direction: row; align-items: flex-end; width: 100%;">
+                            <h4 style="margin: 0; white-space: nowrap;">Welcome to Rezu's Boosting Service</h4> 
+                            <img src="./media/atlas.png" alt="Realms MapMakers Programm" class="innerImage" style="width: 10%; height: auto; margin-top: 10px; margin-left: auto; margin-right: 10px;">
+                        </div>
+                        <p>Every Realms map is built entirely from scratch by our team and made exclusively for your submission. We never reuse assets, recycle previous maps, or resell builds. Each project is unique and designed specifically to meet Java Realms standards.</p>
+                        <p>To maximize discretion, our team develops maps across multiple separate accounts rather than tying all work to a single profile. This provides an additional layer of anonymity throughout the development process.</p>
+                        <p>While going through reddit generally takes longer than Atlas or other boosting methods, it is also our most secure and reliable option. Every map includes a <strong>lifetime publication warranty</strong>, meaning we'll make any required revisions if changes are requested during the review process, along with <strong>lifetime support</strong> for your project whenever you need assistance.</p>
+                    </div>
+                    <hr>
+                    <div style="margin-left:10px; font-size: 17px;">
+                        <h4>Realms Map Pricing</h4>
+                        
+                        <p>
+                        <strong>Individual Map: </strong><br>
+                        <ul>
+                            <li> 1 Custom Realms Map — $2,000 </li>
+                        </ul>
+                        <strong>Bulk Packages</strong> <br>
+                        
+                        </p>
+
+                        <ul>
+                            <li> 3 Custom Realms Maps — <strong>$4,000</strong> ($1,333/map) </li>
+                            <li> 6 Custom Realms Maps — <strong>$6,500</strong> ($1,083/map) </li>
+                            <li> 7+ Custom Realms Maps — <strong>Negotiable pricing based on project size and requirements</strong> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="module">
+    // The path where you have the CustomEmojis.mjs file
+    import {CustomEmojis} from "./libs/custom-emojis/CustomEmojis.mjs";
+        
+    const emojiObj = new CustomEmojis({
+        emojis: [
+            {
+                shortcode: ":btc:",
+                path: "./media/emojis/btc.webp",
+                alt: "btc"
+            },
+            {
+                shortcode: ":eth:",
+                path: "./media/emojis/eth.webp",
+                alt: "btc"
+            },
+            {
+                shortcode: ":usdc:",
+                path: "./media/emojis/usdc.png",
+                alt: "btc"
+            },
+            {
+                shortcode: ":xrp:",
+                path: "./media/emojis/xrp.png",
+                alt: "btc"
+            },
+            {
+                shortcode: ":ltc:",
+                path: "./media/emojis/ltc.webp",
+                alt: "btc"
+            }
+        ],
+        autoSearchShortcodes: true // Automatic search for shortcodes and converting them into emojis in the body of the page
+    });
+    
+    emojiObj.init().then(r => {
+        const element = document.getElementById('crypto');
+        emojiObj.searchShortcodesAtElement(null, element);
+    });
+</script>
+</html>
